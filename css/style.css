@@ -1,0 +1,116 @@
+#page-container {
+    max-width: fit-content;
+    margin: auto;
+}
+
+#left-container {
+    max-width: 30rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+#nft-img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+#nft-specs {
+    vertical-align: top;
+}
+
+#nft-specs li {
+    margin-bottom: 0.063rem;
+}
+
+#right-container {
+    max-width: 36rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#investors-list li {
+    display: inline;
+    list-style-type: disc;
+}
+
+#footnotes p {
+    margin: 0 0 0.5rem 0;
+}
+
+#sources, #transactions, #about {
+    text-align: center;
+}
+
+.tier-1 {
+    background-color: rgba(0, 255, 0, 1);
+}
+
+.tier-2 {
+    background-color: rgba(0, 210, 28, 0.87);
+}
+
+.tier-3 {
+    background-color: rgba(0, 180, 56, 0.76);
+    /* border: 1px solid black; */
+}
+
+.tier-4 {
+    background-color: rgba(0, 150, 84, 0.65);
+    /* border: 1px dashed black; */
+}
+
+.tier-5 {
+    background-color: rgba(0, 120, 112, 0.54);
+    /* border: 1px dotted black; */
+}
+
+.tier-6 {
+    background-color: rgba(0, 90, 140, 0.43);
+    /* border-bottom: 1px solid black; */
+}
+
+.tier-7 {
+    background-color: rgba(0, 60, 168, 0.32);
+    /* border-bottom: 1px dashed black; */
+}
+
+.tier-8 {
+    background-color: rgba(0, 30, 196, 0.21);
+    /* border-bottom: 1px dotted black; */
+}
+
+.tier-9 {
+    background-color: rgba(0, 0, 224, 0.10);
+}
+
+.multi-2 {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.multi-4 {
+    border: 0.064rem solid black;
+    border-radius: 0.188rem;
+}
+
+@keyframes multi-10 {
+    from   {background-color: rgba(0, 255, 0, 0.5);}
+    to  {background-color: rgba(193, 255, 193, 0.35);}
+}
+
+.multi-10 {
+    animation-name: multi-10;
+    border-radius: 0.188rem;
+}
+
+.multi-10, .tier-10 {
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.multi-4, .multi-10 {
+    padding: 0 0.128rem 0 0.128rem;
+}
