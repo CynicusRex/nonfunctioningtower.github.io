@@ -3,17 +3,23 @@ let ledger = [
         "transactionNumber": 2,
         "name": "Example",
         "URL": "",
-        "paid": 0.9
+        "paid": 1.5
     },
     {
         "transactionNumber": 1,
         "name": "Example",
         "URL": "",
         "paid": 0.5
+    },
+    {
+        "transactionNumber": 0,
+        "name": "Isaac Newton",
+        "URL": "https://physicstoday.scitation.org/doi/10.1063/PT.3.4521",
+        "paid": 9000.01
     }
 ];
 
-let ledgerParagraph = "4: <a href='https://physicstoday.scitation.org/doi/10.1063/PT.3.4521'>Isaac Newton</a> ($450), ";
+let ledgerParagraph = "";
 for (let i = 0; i < ledger.length; i++){
     ledgerParagraph += ledger[i].transactionNumber + ": ";
 
