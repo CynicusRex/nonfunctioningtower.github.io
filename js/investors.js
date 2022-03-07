@@ -1,10 +1,17 @@
 let ledger = [
     {
+        "transactionNumber": 2,
+        "name": "silver",
+        "URL": "https://shittytechjob.com/",
+        "paid": "€4.34",
+        "date": "7 March 2022, 22:24"
+    },
+    {
         "transactionNumber": 1,
         "name": "Infernuz",
         "URL": "https://www.cisa.gov/sites/default/files/publications/Cybersecurity%20Awareness%20Month%202021%20-%20Phishing%20Tip%20Sheet.pdf",
         "paid": "€2.00",
-        "date": "7 March 2022"
+        "date": "7 March 2022, 17:55"
     },
     {
         "transactionNumber": 0,
