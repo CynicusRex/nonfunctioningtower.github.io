@@ -1,7 +1,7 @@
 let ledger = [
     {
         "transactionNumber": 2,
-        "name": "Silverhax",
+        "name": "silver",
         "URL": "https://shittytechjob.com/",
         "paid": "€4.34",
         "date": "7 March 2022, 22:24"
