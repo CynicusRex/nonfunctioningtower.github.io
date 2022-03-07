@@ -146,5 +146,10 @@
     padding: 0 0.128rem 0 0.128rem;
 }
 
+.unbold {
+    font-weight: normal;
+    font-size: medium;
+}
+
 /* .example {
 } */
