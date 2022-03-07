@@ -44,10 +44,6 @@
       #owner-table {
         font-size: xx-small;
       }
-
-      #owner-table th:last-child, #owner-table td:last-child{
-        font-size: medium;
-      }
     }
   }
 
