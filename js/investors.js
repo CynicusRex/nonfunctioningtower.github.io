@@ -15,7 +15,7 @@ let ledger = [
         "transactionNumber": 0,
         "name": "Isaac Newton",
         "URL": "https://physicstoday.scitation.org/doi/10.1063/PT.3.4521",
-        "paid": 9000.01
+        "paid": 27
     }
 ];
 
