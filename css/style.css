@@ -39,6 +39,18 @@
     text-align: center;
 }
 
+@media (pointer:none), (pointer:coarse) {
+    @media screen and (orientation: portrait) {
+      #owner-table {
+        font-size: xx-small;
+      }
+
+      #owner-table th:last-child, #owner-table td:last-child{
+        font-size: medium;
+      }
+    }
+  }
+
 #nft-specs li {
     margin-bottom: 0.063rem;
 }
