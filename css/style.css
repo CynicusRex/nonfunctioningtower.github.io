@@ -2,6 +2,14 @@
     font-family: "Liberation Serif", serif, Georgia, "Times New Roman", Times;
   }
 
+#page-container p {
+    margin-top: 0; /* quick and dirty fix; change later */
+}
+
+#page-container h1, #page-container h2 {
+    margin-bottom: 1rem; /* quick and dirty fix; change later */
+}
+
 #page-container {
     max-width: fit-content;
     margin: auto;
